@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		621E554E215A841E00CCEC6E /* Triplet.c in Sources */ = {isa = PBXBuildFile; fileRef = 621E554D215A841E00CCEC6E /* Triplet.c */; };
 		629438C62152996800709CC5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 629438C52152996800709CC5 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		621E554C215A841E00CCEC6E /* Triplet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Triplet.h; sourceTree = "<group>"; };
+		621E554D215A841E00CCEC6E /* Triplet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Triplet.c; sourceTree = "<group>"; };
 		629438C22152996800709CC5 /* CTutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CTutorial; sourceTree = BUILT_PRODUCTS_DIR; };
 		629438C52152996800709CC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				629438C52152996800709CC5 /* main.c */,
+				621E554C215A841E00CCEC6E /* Triplet.h */,
+				621E554D215A841E00CCEC6E /* Triplet.c */,
 			);
 			path = CTutorial;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				621E554E215A841E00CCEC6E /* Triplet.c in Sources */,
 				629438C62152996800709CC5 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
